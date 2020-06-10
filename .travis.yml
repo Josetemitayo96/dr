@@ -6,7 +6,6 @@ before_install:
   - docker build -t tayo96/dr -f Dockerfile.dev .
   
 script:
-  - docker run tayo96/dr npm run test -- --coverage
-
+  - docker run -e CI=true tayo96/dr npm run test
 
 
