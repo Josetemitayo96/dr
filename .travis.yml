@@ -13,7 +13,7 @@ deploy:
   region: "us-east-2"
   app: "dr"
   env: "dr-env"
-  bucket_name: "arn:aws:s3:::elasticbeanstalk-us-east-2-093269691064"
+  bucket_name: "elasticbeanstalk-us-east-2-093269691064"
   bucket_path: "dr"
   on:
     branch: master
